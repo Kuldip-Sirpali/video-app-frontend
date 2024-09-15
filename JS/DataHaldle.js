@@ -7,7 +7,7 @@ validateEmailButton.addEventListener("click", (evt) => {
   emailValue = setEmailInput.value;
   const isValidEmail = /\S+@\S+\.\S+/.test(emailValue);
   if (isValidEmail) {
-    window.location.href = "/HTML/signUP.html";
+    window.location.href = "HTML/signUP.html";
     sessionStorage.setItem("email", emailValue); //to store data in session storage
   } else {
     alert("Invalid email. Please enter a valid email address.");
