@@ -31,7 +31,7 @@ body {
     color: white;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Images/banner.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Images/banner.jpg");
     background-size: cover;
     /* overflow: auto; */
 }
@@ -200,7 +200,7 @@ button:hover {
     justify-content: space-evenly;
     height: 60vmin;
     width: 40vw;
-    background-image: url("Images/tv.png");
+    background-image: url("../Images/tv.png");
     background-size: cover;
     background-position: center center;
 }
@@ -232,7 +232,7 @@ button:hover {
     height: 60vmin;
     width: 40vw;
     /* background-color: #C11119; */
-    background-image: url("Images/mobile-0819.jpg");
+    background-image: url("../Images/mobile-0819.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -294,7 +294,7 @@ button:hover {
     /* background-color: green; */
     height: 50vmin;
     width: 38vw;
-    background-image: url("Images/lap.png");
+    background-image: url("../Images/lap.png");
     background-size: cover;
     background-position: center center;
 }
@@ -312,7 +312,7 @@ button:hover {
 .hero5 .kids-section {
     height: 50vmin;
     width: 38vw;
-    background-image: url("Images/img.png");
+    background-image: url("../Images/img.png");
     background-size: cover;
     background-position: center center;
 }
