@@ -1,0 +1,128 @@
+.hero .container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    /* background-color: rgb(248, 244, 244); */
+}
+
+.hero .container .forgot-password {
+    /* background-color: rgb(248, 244, 244); */
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(153, 136, 136);
+    border-radius: 6px;
+    height: 10px;
+}
+
+.forgot-password h1 {
+    color: rgb(56, 53, 53);
+
+}
+
+.forgot-password h3 {
+
+    font-weight: 200;
+    color: rgb(27, 23, 23);
+}
+
+.forgot-password {
+
+    color: rgb(41, 37, 37);
+}
+
+.fill-up {
+    color: rgb(151, 138, 138);
+    flex-direction: column;
+}
+
+.input-f-l-name {
+    margin-top: 1.6rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.f-name-box,
+.la-name-box,
+.credit-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.f-name-box label,
+.la-name-box label,
+.credit-box label {
+    width: 100%;
+
+}
+
+
+
+.f-name-box input,
+.la-name-box input,
+.credit-box input {
+    margin-left: -1vmin;
+    width: 100%;
+    outline: none;
+    padding: 1.6vmin 0 1.6vmin 1vmin;
+    border-radius: 2px;
+    border: 1px solid rgb(168, 162, 162);
+    margin-bottom: 0.4rem
+}
+
+
+
+
+
+.find-cancel {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3vmin;
+    /* height: 20vmin; */
+}
+
+.find-button {
+    border: none;
+    background-color: rgb(46, 110, 182);
+    color: white;
+    padding: 2vmin;
+    border-radius: 2px;
+
+
+}
+
+.forgot-password .find-button:hover {
+    background-color: rgb(77, 135, 153);
+    cursor: pointer;
+}
+
+.cancel-btn {
+    padding: 2vmin;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(223, 192, 192, 0.75);
+    font-size: 3vmin;
+    padding: 12px 20px;
+    border-radius: 2px;
+}
+
+.forgot-password a:hover {
+    background-color: rgb(247, 228, 228);
+}

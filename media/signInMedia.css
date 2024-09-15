@@ -1,0 +1,60 @@
+@media screen and (max-width:568px) {
+  .banner {
+    background: #000;
+  }
+
+  .net-logo img {
+    width: 40vmin;
+  }
+
+  .con1 {
+    width: 100%;
+ 
+  }
+
+  .remember {
+    font-size:3vmin;
+  }
+
+  .check-rem .need-help a {
+    font-size: 3vmin;
+
+  }
+
+  .new-signup {
+    /* align-items: center; */
+    gap: 1vmin;
+  }
+
+  .new-signup p~a {
+    font-size: 4vmin;
+  }
+
+  /* .new-signup a {
+   font-size: 4vmin;
+  } */
+  .learn-info p {
+    font-size: 3vmin;
+  }
+
+  .text-for-info {
+    width: 100%;
+    /* background: red; */
+    flex-wrap: wrap;
+  }
+
+  .text-for-info .all-in-one {
+    font-size: 3vmin;
+    width: 40%;
+    height: 70%;
+  }
+ 
+  .lang-list select {
+    position: relative;
+    bottom: 3vmin;
+    font-size: 3vmin;
+    left:6vmin;
+    color: #fff;
+   
+}
+}

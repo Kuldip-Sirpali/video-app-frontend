@@ -1,0 +1,79 @@
+@media screen and (max-width:768px) {
+  .hero {
+    background: #fff;
+    height:210vmin;
+
+  }
+
+
+
+  .hero .container .forgot-password {
+    width: 100%;
+    padding: 0;
+   
+
+  }
+
+  .forgot-password h1 {
+    font-size: 6vmin;
+
+  }
+
+  .forgot-password h3,
+  .forgot-password p {
+    font-size: 3vmin;
+  }
+
+  .fill-email {
+    font-size: 3vmin;
+  }
+
+  .signin a {
+    font-size: 6vmin;
+  }
+
+  .forgot-password button {
+    font-size: 4vmin;
+  }
+
+  .not-rem a {
+    font-size: 4vmin;
+  }
+
+  .learn-info {
+    /* background: red; */
+    width: 100vw;
+  }
+
+  .learn-texts-box {
+    width: 100%;
+    /* height:4/3; */
+    /* background: red; */
+  }
+
+  .learn-info p {
+    width: 80%;
+    font-size: 4vmin;
+  }
+  .js-number-with-code{
+    flex-direction: column;
+    /* background: red; */
+    justify-content: center;
+  }
+  #fill-sms-in{
+    padding: 1rem 0 1rem 1rem;
+  }
+  .country-box {
+    position: relative;
+    left: -26vmin;
+    width: 30vmin;
+    border-radius: 4px;
+    font-size: 2vmin;
+    flex-direction: column;
+    border:1px solid #5a5454;
+  }
+  .foot {
+  background: #000;
+    position: relative;
+  }
+}

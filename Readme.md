@@ -1,0 +1,1 @@
+This is Fronted UI of netflix with JS

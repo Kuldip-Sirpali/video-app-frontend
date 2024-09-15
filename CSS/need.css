@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+body {
+    background: #000;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(153, 136, 136);
+    border-radius: 6px;
+}
+
+.hero {
+    width: 100%;
+    height: 140vh;
+    /* background-color: rgb(204, 179, 179); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0007)), url("/Images/que-image.avif");
+    background-size: cover;
+    /* background: red; */
+    background-position: right;
+}
+
+.logo-signin {
+    /* background: rgb(184, 22, 22); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 16vmin;
+    overflow: hidden;
+
+}
+
+.logo {
+    /* background: blue; */
+    width: 60%;
+}
+
+.logo img {
+
+    width: 40vmin;
+}
+
+
+.signin a {
+    text-decoration: none;
+    color: red;
+    font-size: 1.6rem;
+}
+
+.signin a:hover {
+    text-decoration: underline;
+}
+
+.hero .container {
+    color: white;
+    /* background: #000; */
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.hero .container .forgot-password {
+    width: 38%;
+    background-color: white;
+    padding: 2rem 2rem;
+
+}
+
+.forgot-password h1 {
+    color: rgb(56, 53, 53);
+    font-size: 2rem;
+}
+
+.forgot-password h3 {
+    margin-top: 1.6rem;
+    font-size: 1rem;
+    color: rgb(139, 118, 118);
+}
+
+.forgot-password {
+    font-size: 1rem;
+    margin: 1.6rem;
+    color: rgb(41, 37, 37);
+}
+
+input {
+
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.forgot-password p {
+    margin-top: 1.6rem;
+    font-size: 1rem;
+}
+
+.fill-email {
+    margin-left: 0;
+    width: 100%;
+    padding: 1rem 0 1rem 1rem;
+    outline: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    border: 1px solid rgb(155, 139, 139);
+}
+
+#fill-sms-in {
+    padding: 1rem 0 1rem 12rem;
+}
+
+.country-box {
+    display: flex;
+    align-items: center;
+    height: 8%;
+    margin-top: 1rem;
+    border-right: 1px solid rgb(82, 85, 82);
+    position: absolute;
+
+}
+
+.country-box .country-images {
+    width: 8vmin;
+
+}
+
+.country-codes-select {
+    font-size: 0.8rem;
+    width: 18vmin;
+
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.js-number-with-code {
+    display: flex;
+    align-items: center;
+
+   
+}
+
+.forgot-password button {
+    width: 100%;
+    margin-top: 1.6rem;
+    background-color: rgb(16, 128, 194);
+    padding: 1rem 0 1rem 0.4rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+
+}
+
+.forgot-password button:hover {
+    background-color: rgb(37, 151, 218);
+}
+
+.not-rem a {
+
+    text-decoration: none;
+    color: rgb(16, 128, 194);
+}
+
+.not-rem a:hover {
+    text-decoration: underline;
+}
+
+.learn-info {
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 456px; */
+}
+
+.learn-texts-box {
+    /* background: red; */
+    width: 50vw;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* text-align: justify; */
+}
+
+.learn-info p {
+    width: 60%;
+    color: rgb(119, 106, 106);
+}
+
+.learn-info p a {
+    color: rgb(119, 106, 106);
+}
+
+
+
+.foot {
+    margin-top: 3rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    ;
+    justify-content: center;
+
+
+}
+
+/* .text-for-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.text-for-info .all-in-one {
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    color: white;
+    font-size: 12px;
+
+}
+
+.text-for-info .all-in-one ul li {
+    list-style: none;
+
+}
+
+.text-for-info .all-in-one ul li a {
+    text-decoration: none;
+    color: rgb(109, 100, 100);
+}
+
+.text-for-info .all-in-one ul li a:hover {
+    text-decoration: underline;
+}
+
+.que {
+    font-size: 14px;
+}
+
+.text-for-info .link-to-connect1 {
+    margin-top: 40px;
+    line-height: 40px;
+
+}
+
+.text-for-info .link-to-connect2 {
+    margin-top: 120px;
+    line-height: 40px;
+}
+
+.text-for-info .link-to-connect3 {
+    margin-top: 140px;
+}
+
+.text-for-info .link-to-connect4 {
+    margin-top: 140px;
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: 40px;
+    /* background-color: rgb(240, 236, 229); */

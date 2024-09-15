@@ -1,0 +1,225 @@
+@media screen and (max-width:768px) {
+  .sub-contents {
+    height: 20vh;
+    width: 100%;
+    background: #fff;
+  }
+
+  .sub-contents img {
+    width: 16vmin;
+  }
+
+  .sub-contents {
+    width: 100%;
+    height: 28vmin;
+
+  }
+
+  .plan-texts {
+    font-size: 8vmin;
+
+  }
+
+  .sub-contents .net-features {
+    font-size: 6vmin;
+  }
+
+  .step-texts {
+    font-size: 5vmin;
+  }
+
+  .next-btn {
+    font-size: 6vmin;
+    padding: 2vmin 36vmin;
+  }
+
+
+
+
+  .devices-img-cont img {
+    width: 80vmin;
+  }
+
+  .pw-box {
+    width: 100%;
+    height: 150vmin;
+
+  }
+
+  .pw-content-box {
+    width: 100%;
+    height: 100%;
+    margin-left: 3vmin;
+
+  }
+
+
+
+
+
+  /* for plans pages  */
+
+  .user-plans-container {
+    height: 100vh;
+    flex-direction: column;
+
+
+  }
+
+
+  .user-plans-items {
+    margin-top: 5vmin;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+
+  }
+
+  .mini-texts-info {
+    display: none;
+  }
+
+  .user-plans-items .text-one {
+    font-weight: 900;
+    padding-top: 5vmin;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .plans-info-to-net-user {
+    font-size: 4vmin;
+  }
+
+  /* .big-screen-plan {
+    display: none;
+  } */
+
+
+
+
+  /* .plan-container-small-screen {
+    width: 100%;
+    display: block;
+  } */
+
+  /* 
+  .plan-items-mini-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+
+  .plan-items-mini-container .mini-plans {
+    height: 50%;
+    width: 24%;
+    border-radius: 4vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 4vmin;
+    overflow: hidden;
+    border: 1px solid #706767;
+  }
+
+  .mini-premi-text {
+    background: rgb(41, 41, 44);
+    height: 30%;
+    font-weight: 600;
+  }
+
+  .mini-plan-info {
+    background: #fff;
+    color: #0a0606;
+    height: 80%;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+
+  }
+
+  .most-user-plan-items {
+    height: 70%;
+
+  }
+
+  .standard-mini-items,
+  .basic-mini-items,
+  .mobile-mini-items {
+    justify-content: flex-end;
+
+  } */
+
+
+
+  /* for payments buttons page  */
+  .payment-picker-container-hero {
+    height: 120vh
+  }
+
+  .encry-text-box {
+    justify-content: center;
+  }
+
+  .payment-picker-container {
+    height: 100vh;
+  }
+
+
+
+
+
+  /* for credit page */
+
+
+
+
+  .form-container {
+    width: 100%;
+
+  }
+
+  .side-by-side-box {
+    flex-direction: column;
+  }
+
+  .side-one-in {
+    width: 80vw;
+  }
+
+  #card-num-input,
+  .names-input,
+  .side-one-in {
+    font-size: 4vmin;
+    padding: 4vmin;
+    margin-top: 1vmin;
+    width: 80vmin;
+    outline: none;
+    border: 1.2px solid #08346e;
+    border-radius: 2px;
+
+  }
+
+  .input-box p {
+    font-size: 3vmin;
+  }
+
+
+
+  /* for paypal page  */
+
+  .paypal-sub-container {
+    width: 90%;
+    /* height: 50%; */
+  }
+
+  .paypal-foot-text {
+    font-size: 4vmin;
+  }
+}

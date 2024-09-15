@@ -1,0 +1,200 @@
+@media screen and (max-width:768px) {
+  .info-started-container {
+    top: 10vmin;
+  }
+
+  .hero .info1 {
+    font-size: 8vmin;
+  }
+
+  .hero .info2 {
+    font-size: 4vmin;
+  }
+
+  .hero .info3 {
+    width: 60%;
+    font-size: 4vmin;
+    text-align: center;
+  }
+
+  .data-entry-box {
+
+    flex-direction: column;
+
+  }
+
+  .email-fill {
+    width: 90%;
+    font-size: 4vmin;
+
+
+  }
+
+  .btn2 {
+    width: 90%;
+    font-size: 4vmin;
+
+
+  }
+
+  .hero2 {
+    flex-direction: column;
+    height: 100vmin;
+    justify-content: center;
+  }
+
+
+  .hero2 .hero-2-content {
+    width: 60vw;
+
+  }
+
+  .hero-2-content h2 {
+    font-size: 6vmin;
+  }
+
+  .hero-2-content p {
+    font-size: 3vmin;
+  }
+
+  .hero2 .video-box-container {
+    width: 90vw;
+    height: 100vmin;
+
+  }
+
+  .hero3 {
+    flex-direction: column-reverse;
+    height: 100vmin;
+    justify-content: center;
+  }
+
+  .hero3 .download-texts-box {
+    width: 70vw;
+    justify-content: center;
+
+  }
+
+  .hero3 .download-image-box {
+    width: 90vw;
+    height: 110vmin;
+  }
+
+  .download-texts-box h2 {
+    font-size: 6vmin;
+  }
+
+  .download-texts-box p {
+    font-size: 4vmin;
+  }
+
+  .hero4 {
+    flex-direction: column;
+    height: 100vmin;
+    justify-content: center;
+  }
+
+  .hero4 .watch-devices-text {
+    width: 70vw;
+    justify-content: center;
+  }
+
+  .hero4 .devices-image-box {
+    width: 90vw;
+    height: 110vmin;
+  }
+
+  .watch-devices-text h2 {
+    font-size: 6vmin;
+  }
+
+
+  .watch-devices-text p {
+    font-size: 4vmin;
+  }
+
+  .hero5 {
+    flex-direction: column-reverse;
+    height: 100vmin;
+    justify-content: center;
+  }
+
+
+  .hero5 .kids-texts {
+    width: 70vw;
+    justify-content: center;
+  }
+
+  .hero5 .kids-section {
+    width: 90vw;
+    height: 110vmin;
+  }
+
+  .kids-texts h2 {
+    font-size: 6vmin;
+  }
+
+  .kids-texts p {
+    font-size: 4vmin;
+  }
+
+
+
+
+  .hero6 {
+    background: #000;
+    height: 110vh;
+    /* overflow: auto; */
+  }
+
+  .js-hero-6 {
+    height: 300vmin;
+  }
+
+  .hero6 .faq-text-box {
+    font-size: 3vmin;
+  }
+
+
+
+
+  .ready p {
+    width: 50%;
+  }
+
+  .email-button {
+    flex-direction: column;
+  }
+
+  .input-last {
+    width: 80%;
+    font-size: 4vmin;
+
+
+  }
+
+  .btn3 {
+    width: 80%;
+    font-size: 4vmin;
+
+
+  }
+
+  .foot {
+    width: 100vw;
+    height: 120vmin;
+    flex-wrap: wrap;
+
+  }
+
+
+  .min-foot1,
+  .min-foot2,
+  .min-foot3,
+  .min-foot4 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+}

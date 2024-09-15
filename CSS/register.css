@@ -1,0 +1,554 @@
+.hero {
+  background: #ffffff;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(153, 136, 136);
+  border-radius: 6px;
+  height: 10px;
+}
+
+.logo-signin {
+  border-bottom: 1px solid rgb(226, 214, 214);
+}
+
+.container {
+  /* background: rgb(190, 0, 0); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+
+.sub-contents {
+  height: 14vmin;
+  width: 30%;
+  /* background: #2f03a7; */
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.sub-contents i {
+  color: #E50914;
+  font-size: 6vmin;
+
+
+}
+
+.check-img-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-texts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-texts {
+  color: #352f2f;
+  font-size: 6vmin;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-feat {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.sub-contents .net-features {
+  width: 80%;
+  font-size: 3vmin;
+}
+
+.sub-contents img {
+  width: 10vmin;
+}
+
+.foot {
+  background: #000;
+
+}
+
+.text-for-info {
+  background: #000;
+
+}
+
+.get-next-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.next-btn {
+
+  text-decoration: none;
+  background: #e50914;
+  color: #fff;
+  font-size: 2rem;
+  padding: 2vmin 20vmin;
+  border-radius: 4px;
+}
+
+.signUP-container {
+  height: 100vh;
+  gap: 6vmin;
+}
+
+.devices-img-cont img {
+  width: 50vmin;
+}
+
+
+
+
+/* for pw-set container  */
+.set-pw-container {
+
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.pw-box {
+  height: 130vmin;
+  width: 50vw;
+  /* background: rgb(96, 199, 11); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+}
+
+.show-hide-pw-box {
+  position: relative;
+  right: 8vmin;
+  top: 1vmin;
+  font-size: 4vmin;
+  height: 8vmin;
+  display: flex;
+  /* background: red; */
+  align-items: center;
+  color: #E50914;
+  cursor: pointer;
+  padding: 1vmin
+}
+
+.pw-criteria-text {
+  margin-top: 2vmin;
+  margin-left: 4vmin;
+  display: flex;
+  align-items: center;
+
+}
+
+.pw-criteria-text p {
+  width: 90%;
+  font-size: 2vmin;
+  color: #E50914;
+
+}
+
+.pw-content-box {
+  height: 80%;
+  width: 80%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 4vmin;
+
+}
+
+.step-to-pw {
+  font-size: 4vmin;
+  font-weight: 600;
+}
+
+.create-pw-text {
+  font-size: 6vmin;
+  font-weight: 600;
+}
+
+.sub-text {
+  font-size: 4vmin;
+}
+
+.in-data {
+  padding: 3vmin 36vmin 3vmin 1vmin;
+  font-size: 4vmin;
+  margin-left: 4vmin;
+
+}
+
+.check-lbl {
+  font-size: 3vmin;
+}
+
+.go-with-cng-pw {
+  width: 80%;
+  text-align: center;
+
+}
+
+
+/* for plans page  */
+.hero-plan {
+  /* background: red; */
+  height: 220vh;
+}
+
+.main-plan-container {
+  height: 180vh;
+}
+
+.plans-steps {
+  width: 100%;
+}
+
+.plan-content-heading {
+  width: 100%;
+  font-size: 1vmin;
+}
+
+.user-plans-container {
+  height: 180vh;
+  width: 100%;
+  /* background: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.user-plans-items {
+  width: 20vw;
+  height: 90%;
+  /* background: rgb(255, 255, 255); */
+  border-radius: 3vmin;
+  border: 1px solid #9e9d9d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 1vmin #c2bcbc;
+  transition: 0.5s ease;
+
+}
+.user-plans-items:hover{
+  box-shadow: 80vmin 0vmin 400vmin 800vmin #000000ce;
+}
+
+
+.user-plans-items .head-title {
+  background: #2c2b2b;
+  width: 100%;
+  height: 6vmin;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.8vmin;
+
+}
+
+.js-head-text {
+  background-color: #E50914;
+}
+
+.package-checked {
+  margin-left: 10vmin;
+  display: none;
+
+}
+
+.js-hide-check {
+  display: none;
+}
+
+.user-plans-items .text-one {
+  background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(229, 9, 20) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+  border-radius: 2vmin;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 1vmin;
+  min-height: 12vmin;
+  padding: 4vmin 6vmin;
+}
+
+.mini-texts-info {
+  border-top: 1px solid #d3d0d0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 1vmin;
+  flex-direction: column;
+  margin-left: 2vmin;
+
+}
+
+.mini-texts-info span {
+  font-weight: 700;
+  color: #807575;
+  font-size: 2vmin;
+}
+
+.mini-texts-info p {
+  font-weight: 700;
+  color: #444141;
+  font-size: 2.3vmin;
+}
+
+.plan-info {
+  height: 12vmin;
+  width: 90%;
+  /* background: rgb(14, 14, 22); */
+}
+
+.sub-plan-info-cont {
+  width: 90%;
+
+}
+
+.plans-info-to-net-user {
+  color: #797171;
+  font-size: 2vmin;
+  margin-bottom: 3vmin;
+}
+
+/* .plan-container-small-screen {
+  display: none;
+} */
+
+
+
+
+/* for payment pages  */
+
+.safety-text {
+  text-align: center;
+  /* width: 20%; */
+  justify-content: center;
+}
+
+.secure-text-bold {
+  font-weight: 700;
+  width: 50%;
+}
+
+
+
+.encry-text-box i {
+  color: rgb(207, 207, 11);
+  font-size: 2.2vmin;
+}
+
+.payment-btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2vmin;
+}
+
+.payment-page-btn {
+  min-width: 70vmin;
+  padding: 2vmin 4vmin;
+  font-size: 3vmin;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  background: #fff;
+  border: 2px solid #999595;
+  border-radius: 1vmin;
+  cursor: pointer;
+ 
+}
+
+.payment-boxes {
+  min-width: 90%;
+
+}
+
+/* for credit page  */
+
+.credit-container {
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  background: #fff;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.heading-card {
+  font-weight: 700;
+  font-size: 5vmin;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+
+
+
+}
+
+.input-box p {
+  color: #e50914;
+  visibility: hidden;
+
+}
+
+#card-num-input,
+.names-input,
+.side-one-in {
+  margin: 0;
+  font-size: 2.6vmin;
+  padding: 2vmin;
+  margin-top: 1vmin;
+  width: 80vmin;
+  outline: none;
+  border: 1.8px solid #807575;
+  border-radius: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.side-by-side-box {
+  margin-bottom: 1vmin;
+
+
+}
+
+.side-one-in {
+  margin: 0;
+  width: 40vmin;
+  /* background: green; */
+}
+
+.plan-change-container {
+  margin-top: 3vmin;
+  color: rgb(75, 71, 71);
+  background: #f4f4f4;
+  border-radius: 2px;
+  padding: 4vmin;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-price-text {
+
+  color: #292222;
+  font-weight: 600;
+
+}
+
+.plan-text {
+  color: #4b4949;
+  font-weight: 500;
+}
+
+.change-plan a {
+
+  text-decoration: none;
+  color: rgb(35, 127, 163);
+  font-weight: 600;
+}
+
+.start-container {
+  text-align: center;
+}
+
+.start-membership-btn {
+  background: #E50914;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 3.6vmin;
+  margin-top: 2vmin;
+  font-weight: 600;
+  width: 100%;
+  padding: 3vmin;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* paypal page  */
+
+.paypal-container {
+  height: 100vh;
+  width: 100vw;
+  /* background: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.paypal-sub-container {
+  width: 30%;
+  height: 50%;
+  /* background: green; */
+}
+
+.paypal-foot-text {
+  margin-top: 3vmin;
+  font-size: 3vmin;
+}

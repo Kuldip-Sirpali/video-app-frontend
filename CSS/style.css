@@ -1,0 +1,539 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    background-color: rgb(37, 34, 34);
+    overflow-x: hidden;
+
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(153, 136, 136);
+    border-radius: 6px;
+    height: 10px;
+}
+
+.hero {
+
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Images/banner.jpg");
+    background-size: cover;
+    /* overflow: auto; */
+}
+
+.header-box {
+    /* background: rgb(100, 93, 93); */
+    height: 20vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30vmin;
+
+}
+
+
+
+.hero .logo img {
+    width: 40vmin;
+}
+
+.btn1 {
+    background-color: #C11119;
+    color: white;
+    padding: 1vmin 3vmin;
+    border-radius: 6px;
+    box-shadow: 20px 20px 40px rgb(25, 24, 26);
+    transition: 0.5s;
+}
+
+.btn1 a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.btn1:hover {
+    background-color: rgb(158, 12, 12);
+}
+
+.info-started-container {
+    position: relative;
+    top: 24vmin;
+
+}
+
+.header-texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero .info1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.hero .info2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 10vmin;
+}
+
+.hero .info3 {
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+
+.data-entry-box {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vmin;
+
+}
+
+.data-entry-box {
+    /* background: blue; */
+    display: flex;
+    gap: 2vmin;
+
+}
+
+.email-fill {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    /* outline: none; */
+    border: 1px solid rgb(224, 221, 221);
+    background-color: transparent;
+    border-radius: 3px;
+    color: white
+}
+
+input::placeholder {
+    color: rgb(175, 166, 166);
+}
+
+.btn2 {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: #C11119;
+    color: white;
+    border: none;
+    font-weight: 900;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.btn2 i {
+    margin-left: 10px;
+
+}
+
+button:hover {
+
+    background-color: rgb(185, 24, 24);
+}
+
+.hero2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    background-color: black;
+    margin-top: 0.2vmin;
+    color: #fff
+}
+
+
+
+.hero2 .hero-2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vmin;
+    width: 36vw;
+
+
+}
+
+.hero-2-content h2 {
+
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.hero-2-content p {
+    /* line-height: 2vmin; */
+    font-size: 1.6rem;
+}
+
+.hero2 .video-box-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vmin;
+    width: 40vw;
+    background-image: url("/Images/tv.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.movie-content {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    bottom: 1vmin;
+
+}
+
+.hero3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    /* height: 80vh; */
+    background-color: #000;
+    margin-top: 0.2vmin;
+    color: white;
+
+}
+
+.hero3 .download-image-box {
+    /* height: 340px;
+    width: 440px; */
+    height: 60vmin;
+    width: 40vw;
+    /* background-color: #C11119; */
+    background-image: url("/Images/mobile-0819.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero3 .download-texts-box {
+    height: 60vmin;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+
+.download-texts-box h2 {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.download-texts-box p {
+    font-size: 1.6rem;
+}
+
+.hero4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0.2vmin;
+    width: 100vw;
+    background-color: black;
+    color: rgb(247, 248, 247);
+
+
+}
+
+.hero4 .watch-devices-text {
+    height: 60vmin;
+    width: 40vw;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.watch-devices-text h2 {
+    /* margin-top: 2rem; */
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+
+.watch-devices-text p {
+    font-size: 1.6rem;
+}
+
+.hero4 .devices-image-box {
+    /* background-color: green; */
+    height: 50vmin;
+    width: 38vw;
+    background-image: url("/Images/lap.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0.2vmin;
+    width: 100vw;
+    background-color: #000;
+    color: rgb(247, 248, 247);
+}
+
+.hero5 .kids-section {
+    height: 50vmin;
+    width: 38vw;
+    background-image: url("/Images/img.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero5 .kids-texts {
+    height: 60vmin;
+    width: 40vw;
+    /* background-color: red; */
+
+}
+
+.kids-texts h2 {
+    margin-top: 2rem;
+    font-size: 2.6rem;
+    font-weight: 800;
+
+}
+
+.kids-texts p {
+    font-size: 1.6rem;
+
+
+}
+
+.hero6 {
+    background-color: #000;
+    color: white;
+    height: 148vh;
+    /* overflow: auto; */
+    margin-top: 0.2vmin;
+    position: relative;
+    z-index: 1;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.js-hero-6 {
+    height: 300vmin;
+}
+
+.hero6 .faq-text-box {
+    color: white;
+    text-align: center;
+    font-size: 3vmin;
+    width: 100vw;
+    position: relative;
+    top: 1.6rem;
+}
+
+
+.faq-box-container {
+
+    width: 100vw;
+
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+
+}
+
+.drop-answer {
+    display: none;
+}
+
+.js-drop-answer {
+    display: inline;
+}
+
+.hero6 .faq1 {
+
+    background-color: rgb(61, 54, 54);
+    width: 70vw;
+    padding: 3vmin 4vmin;
+    margin: 10px;
+    font-size: 4vmin;
+    cursor: pointer;
+
+}
+
+.faq1:hover {
+    background-color: #414141;
+
+}
+
+.icon-1 i {
+    font-size: 4vmin;
+    float: right;
+    font-weight: lighter;
+
+
+}
+
+.icon-2 i {
+    font-size: 4vmin;
+    float: right;
+    font-weight: lighter;
+
+}
+
+.icon-3 i {
+    font-size: 4vmin;
+    float: right;
+    font-weight: lighter;
+
+
+}
+
+.icon-4 i {
+    font-size: 4vmin;
+    float: right;
+    font-weight: lighter;
+
+}
+
+.icon-5 i {
+    font-size: 4vmin;
+    float: right;
+    font-weight: lighter;
+
+}
+
+
+
+.ready {
+    /* margin-top: 2rem; */
+    font-size: 4vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.6rem;
+    gap: 1.6rem;
+}
+
+.btn3 {
+
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: #C11119;
+    color: white;
+    border: none;
+    font-weight: 900;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.input-last {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid rgb(117, 114, 114);
+    background-color: #000;
+    border-radius: 3px;
+    color: white
+}
+
+.foot {
+    width: 100vw;
+    display: flex;
+    height: 50vh;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 3vmin;
+    margin-top: 0.2vmin;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+ul {
+    text-align: left;
+
+}
+
+.foot ul li {
+    list-style: none;
+}
+
+.foot ul li a {
+    text-decoration: underline;
+    color: #fff;
+    line-height: 40px;
+}
+
+.last-foot {
+    height: 90px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    gap: 1.6vmin;
+}
+
+.lan-option {
+
+    margin-left: 16vmin;
+    border: 1px solid rgb(100, 98, 98);
+    outline: none;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    padding: 1vmin 3vmin;
+    border-radius: 4vmin;
+    font-size: 3vmin;
+
+}
+
+
+.nepal p {
+    color: rgb(189, 186, 186);
+    font-size: 3vmin;
+}
